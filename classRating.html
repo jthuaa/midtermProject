@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ratings</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/dc263abacb.js" crossorigin="anonymous"></script>
+        <script src="classDesc.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar1">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon-bar" onclick="openIconBar()"><i class="fa-solid fa-bars"></i></span>
+                <ul class="nav-list">
+                    <li class="nav-item1">
+                        <a href="index.html"><strong>Home</strong></a>
+                    </li>
+                    <li class="nav-item1">
+                        <a href="classRating.html"><strong>Ratings</strong></a>
+                    </li>
+                    <li class="nav-item1">
+                        <a href="feedback.html"><strong>Feedback</strong></a>
+                    </li>
+                    <li class="nav-item1">
+                        <a href="about.html"><strong>About</strong></a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </header>
+    
+    <main id="main">
+        <div class="subforum-container">
+            <div class="subforum">
+                <div class="subforum-title">
+                    <h1>ISU Classes</h1>
+                </div>
+                <div class="subforum-row">
+                    <div class="subforum-description subforum-column">
+                        <h1><a href="#" onclick="displayInfo()">COM S 319</a></h1>
+                        <p>Overview of user interface design. Evaluation and testing of user interfaces. Review of principles of object orientation, object oriented design and analysis using UML in the context of user interface design. Design of windows, menus and commands. Developing Web and Windows-based user-interfaces. Event-driven programming. Introduction to Frameworks and APIs for the construction of user interfaces.</p>
+                    </div>
+                    <div class="subforum-stats subforum-column center">
+                        <span>25 posts</span>
+                    </div>
+                </div>
+                
+                <div class="subforum-row">
+                    <div class="subforum-description subforum-column">
+                        <h1><a href="">Description Title</a></h1>
+                        <p>Description of class: random description of a class just for testing purposes.</p>
+                    </div>
+                    <div class="subforum-stats subforum-column center">
+                        <span>25 posts</span>
+                    </div>
+                </div>
+                
+                <div class="subforum-row">
+                    <div class="subforum-description subforum-column">
+                        <h1><a href="">Description Title</a></h1>
+                        <p>Description of class: random description of a class just for testing purposes.</p>
+                    </div>
+                    <div class="subforum-stats subforum-column center">
+                        <span>25 posts</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <div  id="class-container">
+        <div class="hide" id="class-title"></div>
+        
+    </div>
+    
+    
+    
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>

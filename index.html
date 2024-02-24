@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/dc263abacb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar1">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon-bar" onclick="openIconBar()"><i class="fa-solid fa-bars"></i></span>
+                <ul class="nav-list">
+                    <li class="nav-item1">
+                        <a href="index.html"><strong>Home</strong></a>
+                    </li>
+                    <li class="nav-item1">
+                        <a href="classRating.html"><strong>Ratings</strong></a>
+                    </li>
+                    <li class="nav-item1">
+                        <a href="feedback.html"><strong>Feedback</strong></a>
+                    </li>
+                    <li class="nav-item1">
+                        <a href="about.html"><strong>About</strong></a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </header>
+    
+    
+    <main>
+        <div class="search-container">
+            <div class="search-box">
+                <div class="search-bar">
+                    <input type="text" id="search-class" placeholder="Search">
+                    <button type="button" id="search">Search</button>
+                </div>
+                <!-- <div class="search-button">
+                </div> -->
+            </div>
+        </div>
+    </main>
+    
+    <script src="main.js"></script>
+</body>
+</html>
