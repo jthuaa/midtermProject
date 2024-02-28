@@ -158,7 +158,7 @@ a {
 
 .subforum-row {
     display: grid;
-    grid-template-columns: 95% 5%;
+    grid-template-columns: 90% 10%;
 }
 .subforum-full-row {
     display: grid;
