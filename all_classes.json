@@ -4,61 +4,71 @@
             "title": "Construction of User Interfaces",
             "classId": "COM S 319",
             "prereq": ["COM S 228"],
-            "description": "Overview of user interface design. Evaluation and testing of user interfaces. Review of principles of object orientation, object oriented design and analysis using UML in the context of user interface design. Design of windows, menus and commands. Developing Web and Windows-based user-interfaces. Event-driven programming. Introduction to Frameworks and APIs for the construction of user interfaces."
+            "description": "Overview of user interface design. Evaluation and testing of user interfaces. Review of principles of object orientation, object oriented design and analysis using UML in the context of user interface design. Design of windows, menus and commands. Developing Web and Windows-based user-interfaces. Event-driven programming. Introduction to Frameworks and APIs for the construction of user interfaces.",
+            "url":"./images/html-coding.jpeg"
         },
         {
-            "title": "Theory of Computing",
-            "classId": "COM S 331",
-            "prereq": ["COM S 228", "MATH 166", "ENGL 250","COM S 230 or CPR E 310"],
-            "description": "Models of computation: finite state automata, pushdown automata and Turing machines. Study of grammars and their relation to automata. Limits of digital computation, unsolvability and Church-Turing thesis. Relations between classes of languages."
+            "title": "Introduction to Computer Architecture",
+            "classId": "COM S 321",
+            "prereq": ["COM S 228", "MATH 165", "COM S 230 or CPR E 310", "ENGL 250"],
+            "description": "Introduction to computer architecture and organization. Emphasis on evaluation of performance, instruction set architecture, datapath and control, memory-hierarchy design, and pipelining. Assembly language programming.",
+            "url":"./images/computer-parts.jpeg"
         },
         {
             "title": "Software Testing",
             "classId": "COM S 417",
             "prereq": ["COM S 309", "COM S 230 or CPR E 310", "ENGL 250"],
-            "description": "An introduction to software testing principles and techniques. Test models, test design, test adequacy criteria; regression, integration, and system testing; and software testing tools."
+            "description": "An introduction to software testing principles and techniques. Test models, test design, test adequacy criteria; regression, integration, and system testing; and software testing tools.",
+            "url":"./images/coding.jpeg"
         },
         {
             "title": "Women in Politics",
             "classId": "POL S 385",
             "prereq": [""],
-            "description": "Entry and participation of women in politics in the United States and other countries. Contemporary issues and strategies for change through the political process. Meets U.S. Diversity Requirement."
+            "description": "Entry and participation of women in politics in the United States and other countries. Contemporary issues and strategies for change through the political process. Meets U.S. Diversity Requirement.",
+            "url":"./images/government-building.jpeg"
         },
         {
             "title": "Public Policy",
             "classId": "POL S 344",
             "prereq": [""],
-            "description": "How agendas come to be set in public policy, theories describing the policy-making process, forces molding policy choices and the impact of such choices."
+            "description": "How agendas come to be set in public policy, theories describing the policy-making process, forces molding policy choices and the impact of such choices.",
+            "url":"./images/voting-day.jpeg"
         },
         {
             "title": "Philosophy of Technology",
             "classId": "PHIL 343",
             "prereq": [""],
-            "description": "Moral and other philosophical problems related to developments in technology. Topics may include conditions under which technological innovations contribute to human emancipation, relationship of technology and democracy, utility and limits of technical rationality, and problems of ensuring that benefits of technological advance are communally shared. Topics discussed with reference to such issues as contemporary developments in microelectronics, technology transfer to the Third World, etc."
+            "description": "Moral and other philosophical problems related to developments in technology. Topics may include conditions under which technological innovations contribute to human emancipation, relationship of technology and democracy, utility and limits of technical rationality, and problems of ensuring that benefits of technological advance are communally shared. Topics discussed with reference to such issues as contemporary developments in microelectronics, technology transfer to the Third World, etc.",
+            "url":"./images/app-development.jpeg"
         },
         {
             "title": "Introduction to Classical Physics I",
             "classId": "PHYS 231",
             "prereq": ["MATH 165", "credit or concurrent enrollment in MATH 166"],
-            "description": "For engineering and science majors. 3 hours of lecture each week plus 3 recitations every two weeks. Elementary mechanics including kinematics and dynamics of particles, work and energy, linear and angular momentum, conservation laws, rotational motion, oscillations, gravitation. Heat, thermodynamics, kinetic theory of gases; waves and sound. Proficiency in algebra, trigonometry, vector manipulation required."
+            "description": "For engineering and science majors. 3 hours of lecture each week plus 3 recitations every two weeks. Elementary mechanics including kinematics and dynamics of particles, work and energy, linear and angular momentum, conservation laws, rotational motion, oscillations, gravitation. Heat, thermodynamics, kinetic theory of gases; waves and sound. Proficiency in algebra, trigonometry, vector manipulation required.",
+            "url":"./images/newtons-cradle.jpeg"
         },
         {
             "title": "Introduction to Classical Physics II",
             "classId": "PHYS 232",
             "prereq": ["MATH 166", "PHYS 231 or PHYS 241"],
-            "description": "3 hours of lecture each week plus 1 recitation each week. Fluid dynamics. Electric forces and fields. Electrical currents; DC circuits. Magnetic forces and fields; LR, LC, LCR circuits; Maxwell's equations; wave optics."
+            "description": "3 hours of lecture each week plus 1 recitation each week. Fluid dynamics. Electric forces and fields. Electrical currents; DC circuits. Magnetic forces and fields; LR, LC, LCR circuits; Maxwell's equations; wave optics.",
+            "url":"./images/equation.jpeg"
         },
         {
             "title": "Calculus II",
             "classId": "MATH 166",
             "prereq": ["MATH 165"],
-            "description": "Integral calculus, applications of the integral, parametric curves and polar coordinates, power series and Taylor series."
+            "description": "Integral calculus, applications of the integral, parametric curves and polar coordinates, power series and Taylor series.",
+            "url":"./images/blackboard.jpeg"
         },
         {
             "title": "Calculus III",
             "classId": "MATH 265",
             "prereq": ["MATH 166"],
-            "description": "Geometry of space and vectors, multivariable differential calculus, multivariable integral calculus, vector calculus."
+            "description": "Geometry of space and vectors, multivariable differential calculus, multivariable integral calculus, vector calculus.",
+            "url":"./images/calculator.jpeg"
         }
     ]
 }
