@@ -20,6 +20,7 @@ function loadClass(myClass) {
     let classDiv = document.createElement("div");
     classDiv.classList.add('subforum-description','subforum-column');
     classDiv.innerHTML = `
+        <img src=${myClass.url} alt="..." style="width: 200px;">
         <h1><a href="#" onclick="displayInfo()">${myClass.classId}</a></h1>
         <p>${myClass.description}</p>`;
     
