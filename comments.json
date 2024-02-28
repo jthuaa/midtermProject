@@ -1,0 +1,72 @@
+{
+    "COM S 319": [
+        {
+            "username": "test",
+            "date": "1/1/24",
+            "comment": "comment!"
+        }
+    ],
+    "COM S 321": [
+        {
+            "username": "",
+            "date": "",
+            "comment": ""
+        }
+    ],
+    "COM S 417": [
+        {
+            "username": "",
+            "date": "",
+            "comment": ""
+        }
+    ],
+    "POL S 385": [
+        {
+            "username": "",
+            "date": "",
+            "comment": ""
+        }
+    ],
+    "POL S 344": [
+        {
+            "username": "",
+            "date": "",
+            "comment": ""
+        }
+    ],
+    "PHIL 343": [
+        {
+            "username": "",
+            "date": "",
+            "comment": ""
+        }
+    ],
+    "PHYS 231": [
+        {
+            "username": "",
+            "date": "",
+            "comment": ""
+        }
+    ],
+    "PHYS 232": [
+        {
+            "username": "",
+            "date": "",
+            "comment": ""
+        }
+    ],
+    "MATH 166": [
+        {
+            "username": "",
+            "date": "",
+            "comment": ""
+        }
+    ],
+    "MATH 265": [
+        {
+            "username": "",
+            "date": "",
+            "comment": ""
+        }
+    ]
+}
