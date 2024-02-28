@@ -14,7 +14,7 @@ function loadClass(myClass) {
     
     let postDiv = document.createElement("div");
     postDiv.classList.add('subforum-stats', 'subforum-column', 'center');
-    postDiv.innerHTML = `<span>25 posts</span>`;
+    postDiv.innerHTML = `<span>0 posts</span>`;
 
     mainDiv.appendChild(classDiv);
     mainDiv.appendChild(postDiv);
