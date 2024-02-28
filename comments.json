@@ -1,72 +1,132 @@
 {
     "COM S 319": [
         {
-            "username": "test",
-            "date": "1/1/24",
-            "comment": "comment!"
+            "username": "mrm4",
+            "date": "2/28/24",
+            "comment": "This class is really fun! You gain experience on multiple different projects!"
+        },
+        {
+            "username": "ksmith",
+            "date": "1/14/2024",
+            "comment": "I really appreciated having in class activities. This allowed me to ask questions about the course content whenever I was confused."
+        },
+        {
+            "username": "juliapom",
+            "date": "12/18/2023",
+            "comment": "Amazing class! I had a great time."
+        },
+        {
+            "username": "mwilliams",
+            "date": "10/31/2023",
+            "comment": "Beware: There are occassional pop quizzes in this course. However, they are extra credit."
+        },
+        {
+            "username": "andrewk",
+            "date": "9/19/2023",
+            "comment": "I loved how much freedom we were given in our projects. It was nice to be able to work on a website that I actually cared about."
         }
     ],
     "COM S 321": [
         {
-            "username": "",
-            "date": "",
-            "comment": ""
+            "username": "mrm4",
+            "date": "2/28/2024",
+            "comment": "This class helps you understand how computers actually work. So far, we have learned a lot about computer memory and assembly code."
+        },
+        {
+            "username": "johnm",
+            "date": "9/19/2020",
+            "comment": "I really enjoyed this class. Just make sure to do the readings and attend lecture!"
         }
     ],
     "COM S 417": [
         {
-            "username": "",
-            "date": "",
-            "comment": ""
+            "username": "mrm4",
+            "date": "2/28/2024",
+            "comment": "I realy like this class. Right now, we are learning about automated gui testing. I really appreciate that we have in class activities to learn how to use the testing programs before we do our assignments."
+        },
+        {
+            "username": "landerson",
+            "date": "7/10/2023",
+            "comment": "Great class! Make sure to attend lectures, though!"
         }
     ],
     "POL S 385": [
         {
-            "username": "",
-            "date": "",
-            "comment": ""
+            "username": "mrm4",
+            "date": "2/28/2024",
+            "comment": "This was definitely one of my favorite classes. Fair warning, it is pretty reading heavy, but it all feels worth it."
+        },
+        {
+            "username": "marynelson",
+            "date": "12/22/2020",
+            "comment": "I recommend this class to everyone I know. However, it is an exam heavy course."
         }
     ],
     "POL S 344": [
         {
-            "username": "",
-            "date": "",
-            "comment": ""
+            "username": "mrm4",
+            "date": "2/28/2024",
+            "comment": "I liked that one of our assignments was to write a policy proposal. This helped me understand them even more."
+        },
+        {
+            "username": "adavis",
+            "date": "2/17/2022",
+            "comment": "Make sure to keep up with the class if you take it online!"
         }
     ],
     "PHIL 343": [
         {
-            "username": "",
-            "date": "",
-            "comment": ""
+            "username": "mrm4",
+            "date": "2/28/2024",
+            "comment": "This class was very interesting. I loved that we were able to choose our own topics for the final paper."
+        },
+        {
+            "username": "tomkline",
+            "date": "3/5/2023",
+            "comment": "Make sure to do the readings!"
         }
     ],
     "PHYS 231": [
         {
-            "username": "",
-            "date": "",
-            "comment": ""
+            "username": "mrm4",
+            "date": "2/28/2024",
+            "comment": "I do not recommend taking this class online."
+        },
+        {
+            "username": "mmiller",
+            "date": "12/9/2020",
+            "comment": "Make sure to ask for help often."
         }
     ],
     "PHYS 232": [
         {
-            "username": "",
-            "date": "",
-            "comment": ""
+            "username": "jhernandez",
+            "date": "6/13/2021",
+            "comment": "Make sure you aren't taking too many other hard classes at the same time as this course."
         }
     ],
     "MATH 166": [
         {
-            "username": "",
-            "date": "",
-            "comment": ""
+            "username": "mrm4",
+            "date": "2/28/2024",
+            "comment": "I highly recommend watching Steve Butler's YouTube videos when you study for this course."
+        },
+        {
+            "username": "ymartin",
+            "date": "1/25/2024",
+            "comment": "This class was very hard, but very rewarding."
         }
     ],
     "MATH 265": [
         {
-            "username": "",
-            "date": "",
-            "comment": ""
+            "username": "mrm4",
+            "date": "2/28/2024",
+            "comment": "I recommend watching Steve Butler's YouTube videos when you study for this course."
+        },
+        {
+            "username": "amoore",
+            "date": "5/14/2022",
+            "comment": "Make sure to really pay attention to the practice quizzes. The quiz and exam questions are often the same (with different numbers)."
         }
     ]
 }
