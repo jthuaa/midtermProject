@@ -1,38 +1,31 @@
 function loadClass(myClass) {
-    var mainContainer = document.getElementById("subforum");
     console.log(myClass.classId);
 
-    let mainDiv = document.createElement("div");
-    mainDiv.className = "subforum-full-row";
+    let titleDiv = document.getElementById("classTitle");
+    titleDiv.innerHTML = `<h1>${myClass.classId}</h1>`;
+
+    let descDiv = document.getElementById("classDescription");
 
     let classDiv = document.createElement("div");
     classDiv.classList.add('subforum-description', 'subforum-column');
     classDiv.innerHTML = `
         <img src=${myClass.url} alt="..." style="width: 200px;">
-        <h1>${myClass.classId}</h1>
+        <h1>${myClass.title}</h1>
         <p>${myClass.description}</p>`;
-    mainDiv.appendChild(classDiv);
-    mainContainer.appendChild(mainDiv);
-
-    let commentsTitle = document.createElement("div");
-    commentsTitle.className = "subforum-subtitle";
-    commentsTitle.innerHTML = `<h1>Comments</h1>`;
-
-    mainContainer.appendChild(commentsTitle);
+    descDiv.appendChild(classDiv);
 }
 
 function loadComment(comment) {
-    var mainContainer = document.getElementById("subforum");
+    var mainContainer = document.getElementById("comments");
 
     let mainDiv = document.createElement("div");
     mainDiv.className = "subforum-full-row";
 
     let commentDiv = document.createElement("div");
     commentDiv.classList.add('subforum-description', 'subforum-column');
-    commentDiv.innerHTML = `<p>${comment.comment}</p>`;
 
     commentDiv.innerHTML = `
-        <h2>@${comment.username}</h2>
+        <p class="comment-title"><strong>@${comment.username}</strong></p>
         <p class="date">${comment.date}</p>
         <p>${comment.comment}</p>`;
 
@@ -41,14 +34,14 @@ function loadComment(comment) {
 }
 
 function noComments() {
-    var mainContainer = document.getElementById("subforum");
+    var mainContainer = document.getElementById("comments");
 
     let mainDiv = document.createElement("div");
     mainDiv.className = "subforum-full-row";
 
     let commentDiv = document.createElement("div");
     commentDiv.classList.add('subforum-description', 'subforum-column');
-    commentDiv.innerHTML = `<p>No comments yet</p>`;
+    commentDiv.innerHTML = `<p>No comments yet.</p>`;
 
     mainDiv.appendChild(commentDiv);
     mainContainer.appendChild(mainDiv);

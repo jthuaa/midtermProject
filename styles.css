@@ -181,6 +181,10 @@ a {
     color: gray;
 }
 
+.comment-title {
+    color: var(--primary-color);
+}
+
 .center {
     display: flex;
     justify-content: center;
