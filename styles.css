@@ -265,6 +265,18 @@ p.title {
     box-shadow: 0 0 10px gray;
 }
 
+/* footer */
+footer {
+    background-color: var(--tertiary-color);
+}
+.footer-text {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footer-images {
+    padding-right: 10px;
+}
+
 /* for phones */
 @media screen and (max-width: 480px) {
     .subforum-container {
