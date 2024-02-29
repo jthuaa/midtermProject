@@ -58,7 +58,7 @@ if (course) {
     console.log('No information passed.');
 }
 
-fetch('all_classes.json')
+fetch('data.json')
     .then(response => response.json())
     .then(data => {
         // Loop through the music and create tables

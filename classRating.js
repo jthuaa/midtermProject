@@ -45,7 +45,7 @@ function getCommentCount(myClass) {
     .catch(error => console.error('Error fetching JSON:', error));
 }
 
-fetch('all_classes.json')
+fetch('data.json')
     .then(response => response.json())
     .then(data => {
         // Loop through the music and create tables
