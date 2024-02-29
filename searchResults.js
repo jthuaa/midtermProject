@@ -38,7 +38,7 @@ function loadMajor(myMajor) {
 
 // Get the URL parameters
 const urlParams = new URLSearchParams(window.location.search);
-const info = urlParams.get('info');
+const info = urlParams.get('info').toUpperCase();
 
 // Use the retrieved information
 if (info) {
@@ -46,6 +46,9 @@ if (info) {
 } else {
     console.log('No information passed.');
 }
+
+var searchResult = document.getElementById("resultsTitle");
+searchResult.innerHTML = `Search results for: ${info}`;
 
 fetch('data.json')
     .then(response => response.json())
