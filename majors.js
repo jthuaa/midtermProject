@@ -1,6 +1,6 @@
-function loadClass(myClass) {
+function loadClass(myMajor) {
     var mainContainer = document.getElementById("subforum");
-    console.log(myClass.classId);
+    console.log(myMajor.classId);
     
     let mainDiv = document.createElement("div");
     mainDiv.className = "subforum-row";
@@ -8,38 +8,39 @@ function loadClass(myClass) {
     let classDiv = document.createElement("div");
     classDiv.classList.add('subforum-description','subforum-column');
     classDiv.innerHTML = `
-        <img src=${myClass.url} alt="..." style="width: 200px;">
-        <h1><a href="classInfo.html?info=${myClass.classId}">${myClass.classId}</a></h1>
-        <p class="title"><strong>${myClass.title}</strong></p>
-        <p>${myClass.description}</p>`;
+        <img src=${myMajor.url} alt="..." style="width: 200px;">
+        <h1><a href="majorInfo.html?info=${myMajor.majorId}">${myMajor.majorId}</a></h1>
+        <p class="title"><strong>${myMajor.title}</strong></p>
+        <p>${myMajor.description}</p>`;
     
     let postDiv = document.createElement("div");
     postDiv.classList.add('subforum-stats', 'subforum-column', 'center');
-    postDiv.id = myClass.classId +"postCount";
+    postDiv.id = myMajor.majorId +"postCount";
 
     mainDiv.appendChild(classDiv);
     mainDiv.appendChild(postDiv);
     mainContainer.appendChild(mainDiv);
 }
 
-function getCommentCount(myClass) {
-    fetch('comments.json')
+function getCourseCount(myMajor) {
+    fetch('data.json')
     .then(response => response.json())
     .then(data => {
-        var commentCount = 0;
-        if(data[myClass.classId]) {
-            //there are comments
-            data[myClass.classId].forEach(comment => { 
-                commentCount++;
-            });
-        }
-        var mainContainer = document.getElementById(myClass.classId +"postCount");
+        var courseCount = 0;
+        
+        data.classInfo.forEach(myCourse => {
+            if(myCourse.majorId == myMajor.majorId) {
+                courseCount++;
+            }
+        });
+
+        var mainContainer = document.getElementById(myMajor.majorId +"postCount");
         let div = document.createElement("span");
         
-        if(commentCount == 1) {
-            div.innerHTML = `1 post`;
+        if(courseCount == 1) {
+            div.innerHTML = `1 class`;
         } else {
-            div.innerHTML = `${commentCount} posts`;
+            div.innerHTML = `${courseCount} classes`;
         }
         mainContainer.appendChild(div);
     })
@@ -50,9 +51,9 @@ fetch('data.json')
     .then(response => response.json())
     .then(data => {
         // Loop through the music and create tables
-        data.classInfo.forEach(myClass => {
-            loadClass(myClass);
-            getCommentCount(myClass);
+        data.majorInfo.forEach(myMajor => {
+            loadClass(myMajor);
+            getCourseCount(myMajor);
     });
     })
     .catch (error => console.error('Error fetching JSON:', error));
