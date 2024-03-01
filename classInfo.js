@@ -1,5 +1,5 @@
 function loadClass(myClass) {
-    console.log(myClass.classId);
+    // console.log(myClass.classId);
 
     let titleDiv = document.getElementById("classTitle");
     titleDiv.innerHTML = `<h1>${myClass.classId}</h1>`;
@@ -11,6 +11,7 @@ function loadClass(myClass) {
     classDiv.innerHTML = `
         <img src=${myClass.url} alt="..." style="width: 200px;">
         <h1>${myClass.title}</h1>
+        <p>Pre-reqs: ${myClass.prereq}</p>
         <p>${myClass.description}</p>`;
     descDiv.appendChild(classDiv);
 }

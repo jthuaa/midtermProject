@@ -5,10 +5,15 @@ function loadClass(myMajor) {
     let mainDiv = document.createElement("div");
     mainDiv.className = "subforum-row";
     
+    let picDiv = document.createElement("div");
+    picDiv.classList.add('subforum-column', 'pic-div', 'center');
+    picDiv.innerHTML =`
+        <img src=${myMajor.url} alt="..." style="width: 100%;">
+    `;
+
     let classDiv = document.createElement("div");
     classDiv.classList.add('subforum-description','subforum-column');
     classDiv.innerHTML = `
-        <img src=${myMajor.url} alt="..." style="width: 200px;">
         <h1><a href="majorInfo.html?info=${myMajor.majorId}">${myMajor.majorId}</a></h1>
         <p class="title"><strong>${myMajor.title}</strong></p>
         <p>${myMajor.description}</p>`;
@@ -17,6 +22,7 @@ function loadClass(myMajor) {
     postDiv.classList.add('subforum-stats', 'subforum-column', 'center');
     postDiv.id = myMajor.majorId +"postCount";
 
+    mainDiv.appendChild(picDiv);
     mainDiv.appendChild(classDiv);
     mainDiv.appendChild(postDiv);
     mainContainer.appendChild(mainDiv);
