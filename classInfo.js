@@ -1,5 +1,4 @@
 function loadClass(myClass) {
-    // console.log(myClass.classId);
 
     let titleDiv = document.getElementById("classTitle");
     titleDiv.innerHTML = `<h1>${myClass.classId}</h1>`;
@@ -33,6 +32,25 @@ function loadComment(comment) {
     mainDiv.appendChild(commentDiv);
     mainContainer.appendChild(mainDiv);
 }
+
+function loadTips(tip) {
+    var mainContainer = document.getElementById("tips");
+
+    let mainDiv = document.createElement("div");
+    mainDiv.className = "subforum-full-row";
+
+    let tipDiv = document.createElement("div");
+    tipDiv.classList.add('subforum-description', 'subforum-column');
+
+    tipDiv.innerHTML = `
+        <p class="comment-title"><strong>${tip.date}</strong></p>
+        <p>${tip.comment}</p>`;
+
+    mainDiv.appendChild(tipDiv);
+    mainContainer.appendChild(mainDiv);
+}
+
+
 
 function noComments() {
     var mainContainer = document.getElementById("comments");
@@ -85,3 +103,29 @@ fetch('comments.json')
         }
     })
     .catch(error => console.error('Error fetching JSON:', error));
+
+fetch('tips.json')
+.then(response => response.json())
+.then(data => {
+    if(data[course]) {
+        //there are comments
+        data[course].forEach(tip => { 
+            loadTips(tip);
+        });
+    } else {
+        console.log("No comments for" + course); 
+        noComments();
+    }
+})
+.catch(error => console.error('Error fetching JSON:', error));
+
+
+function hideTips(){
+    document.querySelector("#comments").classList.remove('hide')
+    document.querySelector("#tips").classList.add('hide');
+}
+
+function hideComments(){
+    document.querySelector("#comments").classList.add('hide')
+    document.querySelector("#tips").classList.remove('hide');
+}

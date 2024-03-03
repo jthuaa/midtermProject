@@ -79,23 +79,13 @@
             "username": "mrm4",
             "date": "2/28/2024",
             "comment": "This class was very interesting. I loved that we were able to choose our own topics for the final paper."
-        },
-        {
-            "username": "tomkline",
-            "date": "3/5/2023",
-            "comment": "Make sure to do the readings!"
         }
     ],
     "PHYS 231": [
         {
-            "username": "mrm4",
-            "date": "2/28/2024",
-            "comment": "I do not recommend taking this class online."
-        },
-        {
             "username": "mmiller",
             "date": "12/9/2020",
-            "comment": "Make sure to ask for help often."
+            "comment": "Difficult class, make sure to ask for help often."
         }
     ],
     "PHYS 232": [
@@ -107,11 +97,6 @@
     ],
     "MATH 166": [
         {
-            "username": "mrm4",
-            "date": "2/28/2024",
-            "comment": "I highly recommend watching Steve Butler's YouTube videos when you study for this course."
-        },
-        {
             "username": "ymartin",
             "date": "1/25/2024",
             "comment": "This class was very hard, but very rewarding."
@@ -122,11 +107,6 @@
             "username": "mrm4",
             "date": "2/28/2024",
             "comment": "I recommend watching Steve Butler's YouTube videos when you study for this course."
-        },
-        {
-            "username": "amoore",
-            "date": "5/14/2022",
-            "comment": "Make sure to really pay attention to the practice quizzes. The quiz and exam questions are often the same (with different numbers)."
         }
     ]
 }

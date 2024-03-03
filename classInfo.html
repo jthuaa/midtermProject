@@ -17,29 +17,27 @@
 </head>
 
 <body>
-    <script src="classInfo.js"></script>
     
     <div id="navbarContainer"></div>
-
+    
     <main id="main">
         <div class="subforum-container">
             <div class="subforum" id="subforum">
                 <div class="subforum-title" id="classTitle"></div>
                 <div class="subforum-full-row" id="classDescription"></div>
                 <div class="subforum-subtitle">
-                    <h1>Comments</h1>
+                    <button type="button" id="comment-link" onclick="hideTips()"><h1>Comments</h1></button>
+                    <button type="button" id="tip-link" onclick="hideComments()"><h1>Tips</h1></button>
                 </div>
-                <div id="comments"></div>
+                <div id="comments" class=""></div>
+                <div id="tips" class="hide"></div>
             </div>
         </div>
     </main>
-    <!-- <div id="class-container">
-        <div class="hide" id="class-title"></div>
-
-    </div> -->
-
+    
     <div id="footerContainer"></div>
-
+    
+    <script src="classInfo.js"></script>
     <script src="main.js"></script>
 </body>
 
